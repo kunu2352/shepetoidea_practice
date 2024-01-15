@@ -1,0 +1,2 @@
+module Public::PostIdeaHelper
+end

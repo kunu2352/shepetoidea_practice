@@ -1,0 +1,2 @@
+module Pulic::HomesHelper
+end
