@@ -1,0 +1,2 @@
+class PostFreeIdea < ApplicationRecord
+end
