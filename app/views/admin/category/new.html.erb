@@ -1,0 +1,9 @@
+<%= form_with model: @category, url: admin_category_index_path do |f| %>
+<%= f.label :category_name, "カテゴリー名" %>
+<%= f.text_field :category_name %>
+<%= f.submit "保存" %>
+<% end %>
+
+<% @categories.each do |category| %>
+<%= category.category_name %>
+<% end %>
